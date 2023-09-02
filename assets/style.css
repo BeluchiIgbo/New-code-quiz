@@ -1,0 +1,101 @@
+:root {
+    /* used extension on figma to find colors*/
+    --dark-blue:#474f85;
+    --teal:#51e3d4;
+    --white:#fafafa;
+    --cream: #f3ecd3;
+    --pale-blue: #f3f9fb;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+    font-family:'Montserrat', sans-serif; 
+    color: black;
+}
+
+body{
+    background-color: var(--pale-blue);
+   overflow: hidden;
+}
+
+
+.wrapper-screen {
+  margin: 100px auto 0 auto;
+  max-width: 600px;
+}
+
+.hidden {
+    display: none;
+  }
+  
+  .start {
+    text-align: center;
+  }
+  
+  .view-scores {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .correctanswer {
+    font-size: 110%;
+    margin-top: 20px;
+    padding-top: 10px;
+    color: gray;
+    
+  }
+  
+  .timerclock {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:var(--dark-blue);
+  }
+  
+  button {
+    display: inline-block; 
+    margin: 15px;
+    font-family:'Montserrat', sans-serif; 
+    font-size: 100%;
+    padding: 5px 15px;
+    background-color:black;
+    border-radius: 6px;
+    color:var(--pale-blue);
+  }
+  
+  button:hover {
+    background-color:var(--dark-blue);
+  }
+  
+  .answerchoices button {
+    display: block;
+  }
+  
+  input[type="text"] {
+    font-size: 100%;
+  }
+  
+  ol {
+    padding-left: 0px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  
+  li {
+    padding: 5px;
+    list-style: decimal inside none;
+  }
+  
+

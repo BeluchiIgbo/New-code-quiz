@@ -32,7 +32,7 @@ THEN I can save my initials and score
 ## Assets
 
 The following image demonstrates the web application's appearance and functionality:
-![](assets/images/screenshot-portfolio.png) 
+![](assets/images/code-quiz-image.png) 
 
 ## Review
 
@@ -45,4 +45,12 @@ Repositiory contains a quality README file with description, screenshot, and lin
 ## Source
 * https://fonts.google.com/specimen/Montserrat?preview.text=Whereas%20disregard%20and%20contempt%20for%20human%20rights%20have%20resulted&preview.text_type=custom&query=montserrat
 * https://www.figma.com/community/plugin/740832935938649295/Color-Palettes
+* https://www.codingnepalweb.com/quiz-app-with-timer-javascript/ 
+* https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute
+* https://stackoverflow.com/questions/20165934/html-button-supposed-to-start-javascript-jquery-quiz-function-but-nothing-happ
+* https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage 
+* https://simplestepscode.com/javascript-quiz-tutorial/ 
+* https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/ 
+* https://www.proprofs.com/quiz-school/story.php?title=html-basics-quiz_1
+* https://frontend.turing.edu/lessons/module-1/json-and-localstorage.html 
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap"
+     rel="stylesheet"/>
+
+     <link rel="stylesheet" href="./assets/style.css"/>  
+
+    <title>New Coding Quiz</title>
+</head>
+<body>
+     <!--Link to scores-->
+    <div class="view-scores"><a href="score.html">View Highscores</a></div>
+
+    <div class="timerclock">Timer: <span id="time">0</span></div>
+
+    <!-- quiz intro-->
+
+    <div class="wrapper-screen">
+      <div id="starter-screen" class="start">
+        <h1>Coding Quiz</h1>
+        <p>
+            Answer all 5 questions to the best of your ability. If you answer a question incorrectly, then time will be subtracted from the clock. When all questions are answered or the time reaches 0, then the game is over.
+        </p>
+        <button id="start">Start Quiz</button>
+      </div>
+
+      <!-- questions screen-->
+
+      <div id="questions" class="hidden" >
+        <h2 id="title-question"></h2>
+        <div id="answerchoices" class="answerchoices"></div>
+      </div>
+
+      <!-- end screen-->
+
+      <div id="end-screen" class="hidden">
+        <h2>Completed!</h2>
+        <p>Your Final Score is <span id="final-score"></span>.</p>
+        <p>
+          Type Initials: <input type="text" id="initials" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
+
+      <div id="correctanswer" class="correctanswer hidden"></div>
+    </div>
+
+    <script src="./JS/questions.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
