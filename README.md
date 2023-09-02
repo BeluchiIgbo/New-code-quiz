@@ -4,6 +4,12 @@
 
 A timed coding quiz with multiple-choice questions.
   
+* The quiz contains 5 questions on HTML. When you click the start button, then the questions will appear. The quiz allots 80 seconds to complete. Every incorrect answer,  will deduct 5 seconds off their time remianing.
+
+* Once the quiz is completed, a score will be shown on the highscore table and the student will be able to save it with their initials.
+
+* At the top left of the page, the student can view their recorded scores.
+
 * https://beluchiigbo.github.io/New-code-quiz/
 
 ## User Story
