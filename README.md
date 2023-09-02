@@ -4,7 +4,7 @@
 
 A timed coding quiz with multiple-choice questions.
   
-* The quiz contains 5 questions on HTML. When you click the start button, then the questions will appear. The quiz allots 80 seconds to complete. Every incorrect answer,  will deduct 5 seconds off their time remianing.
+* The quiz contains 5 questions on HTML. When you click the start button, then the questions will appear. The quiz allots 80 seconds to complete. Every incorrect answer,  will deduct 5 seconds off their time remaining.
 
 * Once the quiz is completed, a score will be shown on the highscore table and the student will be able to save it with their initials.
 
