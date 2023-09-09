@@ -10,7 +10,7 @@ A timed coding quiz with multiple-choice questions.
 
 * At the top left of the page, the student can view their recorded scores.
 
-* https://beluchiigbo.github.io/New-code-quiz/
+* [https://beluchiigbo.github.io/New-code-quiz/](https://beluchiigbo.github.io/New-code-quiz/)
 
 ## User Story
 
